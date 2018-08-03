@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Passion+One");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,600");
+body {
+  display: flex;
+  background: white url("../img/bg.png") no-repeat fixed 0 0/cover;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+body #include-logo {
+  position: relative;
+  width: 40%;
+}
+@media (min-width: 1025px) {
+  body #include-logo {
+    margin-top: 2vw;
+    margin-left: 3vw;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  body #include-logo {
+    margin-top: 3vw;
+    margin-left: 4vw;
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  body #include-logo {
+    margin-top: 3vw;
+    margin-left: 4vw;
+  }
+}
+@media (max-width: 425px) {
+  body #include-logo {
+    margin-top: 8vw;
+    margin-left: 8vw;
+  }
+}
+body #include-logo img {
+  width: 65px;
+}
+body #include-logo #about-container {
+  position: absolute;
+  top: 28%;
+  left: -0.3vw;
+  -webkit-transform: rotate(-90deg);
+}
+body #include-logo #about-container a {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  color: red;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+}
+body #include-logo h1 {
+  position: absolute;
+  top: 2vw;
+}
+@media (min-width: 1025px) {
+  body #include-logo h1 {
+    left: 4.5vw;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  body #include-logo h1 {
+    left: 6vw;
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  body #include-logo h1 {
+    left: 8vw;
+  }
+}
+@media (max-width: 425px) {
+  body #include-logo h1 {
+    left: 15vw;
+  }
+}
+body #include-logo h1 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+body #include-logo nav {
+  position: absolute;
+  top: 110px;
+}
+@media (min-width: 1025px) {
+  body #include-logo nav {
+    left: 4.5vw;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  body #include-logo nav {
+    left: 6vw;
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  body #include-logo nav {
+    left: 8vw;
+  }
+}
+@media (max-width: 425px) {
+  body #include-logo nav {
+    left: 15vw;
+  }
+}
+body #include-logo nav a {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 43px;
+}
+body #include-logo nav a:link {
+  font-size: 18px;
+}
+body #include-logo nav a:hover {
+  font-size: 16px;
+  color: grey;
+}
